@@ -1,111 +1,103 @@
-# 👋 Evgeny (regimentor)
+<div align="center">
 
-[🇬🇧 English Version](#-english) | [🇷🇺 Русская версия](#-russian)
+<img src="https://avatars.githubusercontent.com/u/17704610?v=4" width="112" alt="Evgeny Shchekoldin" />
 
----
+# Evgeny Shchekoldin
 
-# <a name="-english"></a>🇬🇧 English Version
+### Local-first AI agents · systems tooling · developer experience
 
-## 🧠 About Me
-- Passionate about systems engineering, Rust, Lua, and the Wayland ecosystem  
-- Configure productive development setups (Neovim, Hyprland)  
-- Build tools and UI components that improve developer workflows  
+I build practical tools at the intersection of **AI, Rust, TypeScript and Linux** —
+from desktop agents with long-term memory to isolated coding harnesses and a carefully
+tuned Wayland development environment.
 
-📍 Kazakhstan  
-🌐 Telegram: [@HeadlessEvgen](https://t.me/HeadlessEvgen)  
-🐦 X: [@EShchekoldin](https://twitter.com/EShchekoldin)
+[![Location](https://img.shields.io/badge/Kazakhstan-111827?style=flat-square&logo=googlemaps&logoColor=white)](https://en.wikipedia.org/wiki/Kazakhstan)
+[![Telegram](https://img.shields.io/badge/@HeadlessEvgen-111827?style=flat-square&logo=telegram&logoColor=white)](https://t.me/HeadlessEvgen)
+[![X](https://img.shields.io/badge/@EShchekoldin-111827?style=flat-square&logo=x&logoColor=white)](https://x.com/EShchekoldin)
 
----
-
-## 🚀 My Projects
-
-### 🔧 **nvim.config**  
-Personal Neovim configuration written in Lua.  
-Optimized for performance, clean UI, and a smooth LSP experience.  
-➡️ https://github.com/regimentor/nvim.config
-
-### 🦀 **oxid-bar**  
-A minimalist status bar for Wayland/Hyprland built in Rust.  
-Currently in an **early development stage** (prototype phase).  
-Powered by wlr-layer-shell with support for custom modules.  
-➡️ https://github.com/regimentor/oxid-bar
-
-### 🧪 **easy-qa-suite**  
-A lightweight suite of QA utilities and scripts.  
-Also in **early prototype stage** — functionality is actively evolving.  
-Simplifies data validation, analysis, and automation of routine test operations.  
-➡️ https://github.com/regimentor/easy-qa-suite
+</div>
 
 ---
 
-## 🛠 Technologies & Interests
-- **Rust**, **Lua**, **TypeScript**  
-- **Neovim**, **Wayland**, **Hyprland**  
-- CLI tools and minimal UI components  
-- System environment optimization  
-- Workflow automation  
+## What I'm building
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🤝 Contact
-Feel free to reach out if you'd like to discuss ideas or collaborate.
+### [daevox](https://github.com/regimentor/daevox)
 
-Thanks for visiting! 🌟
+Local desktop AI chat with long-term memory and web tools. Electron/React interface,
+SQLite conversations and an Obsidian-compatible Markdown memory store.
 
----
+`TypeScript` `Python` `Electron` `React` `SQLite`
 
-[🇷🇺 Перейти к русской версии](#-russian)
+</td>
+<td width="50%" valign="top">
 
----
+### [ai_agent](https://github.com/regimentor/ai_agent)
 
-# <a name="-russian"></a>🇷🇺 Русская версия
+An educational modular harness agent written in Rust. Explores local LLMs and runs
+tasks in isolated Docker containers for safety and reproducibility.
 
-## 🧠 Обо мне
-- Увлечён системной инженерией, Rust, Lua и Wayland-экосистемой  
-- Настраиваю продуктивные окружения (Neovim, Hyprland)  
-- Создаю инструменты и UI-компоненты, упрощающие работу разработчика  
+`Rust` `Ratatui` `Docker` `Local LLMs`
 
-📍 Казахстан  
-🌐 Telegram: [@HeadlessEvgen](https://t.me/HeadlessEvgen)  
-🐦 X: [@EShchekoldin](https://twitter.com/EShchekoldin)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### [daevox-prototype-v1](https://github.com/regimentor/daevox-prototype-v1)
 
-## 🚀 Мои проекты
+A coding-agent harness for local models, with a ReAct loop, sandboxed tools and a
+lead → developer → reviewer orchestration pipeline.
 
-### 🔧 **nvim.config**  
-Персональная конфигурация Neovim на Lua.  
-Оптимизирована под скорость, чистый интерфейс и удобную работу с LSP.  
-➡️ https://github.com/regimentor/nvim.config
+`TypeScript` `Docker` `MCP` `OpenAI-compatible API`
 
-### 🦀 **oxid-bar**  
-Минималистичный статус-бар для Wayland/Hyprland на Rust.  
-Сейчас находится **на ранней стадии разработки (этап прототипирования)**.  
-Работает через wlr-layer-shell, поддерживает кастомные модули.  
-➡️ https://github.com/regimentor/oxid-bar
+</td>
+<td width="50%" valign="top">
 
-### 🧪 **easy-qa-suite**  
-Лёгкий набор утилит и скриптов для QA.  
-Тоже **находится на этапе раннего прототипа**, функциональность активно развивается.  
-Упрощает проверку данных, анализ и автоматизацию рутинных тестовых задач.  
-➡️ https://github.com/regimentor/easy-qa-suite
+### [ai_agent_spec](https://github.com/regimentor/ai_agent_spec)
 
----
+The specification-driven counterpart to `ai_agent`: requirements, architecture,
+ADRs, iterations and acceptance criteria in an Obsidian-friendly knowledge base.
 
-## 🛠 Технологии и интересы
-- **Rust**, **Lua**, **TypeScript**  
-- **Neovim**, **Wayland**, **Hyprland**  
-- CLI-инструменты, минималистичные UI  
-- Оптимизация системного окружения  
-- Автоматизация рабочих процессов  
+`SDD` `Architecture` `ADR` `Obsidian`
 
----
+</td>
+</tr>
+</table>
 
-## 🤝 Контакты
-Если хочешь обсудить идеи или проекты — пиши в Telegram или X.
+## Developer environment
 
-Спасибо, что заглянул! 🌟
+- **[headless-nvim](https://github.com/regimentor/headless-nvim)** — a productivity-focused Neovim setup with LSP, AI assistance, fuzzy search and a fast lazy-loaded UI.
+- **[oxid-bar](https://github.com/regimentor/oxid-bar)** — an experimental minimalist status bar for Wayland/Hyprland, written in Rust.
+- **[easy-qa-suite](https://github.com/regimentor/easy-qa-suite)** — utilities for data validation, analysis and routine QA automation.
+- **[ferroxy](https://github.com/regimentor/ferroxy)** — a cross-platform process supervisor and reverse proxy for multi-service Node.js applications.
 
----
+## Toolbox
 
-[⬆️ Back to English version](#-english)
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,python,lua,react,nodejs,electron,docker,linux,neovim,git&perline=12" alt="Rust, TypeScript, JavaScript, Python, Lua, React, Node.js, Electron, Docker, Linux, Neovim and Git" />
+</p>
+
+```text
+current focus  local-first agents · tool use · long-term memory · safe execution
+environment    Linux · Wayland · Hyprland · Neovim
+approach       prototype → specify → measure → refine
+```
+
+## A little more about me
+
+Я из Казахстана. Сейчас больше всего интересуюсь локальными LLM, архитектурой
+агентов, воспроизводимыми окружениями и инструментами, которые делают разработку
+быстрее и спокойнее. Люблю разбирать систему до понятных контрактов, собирать
+рабочий прототип и постепенно доводить его до аккуратного инструмента.
+
+Если хотите обсудить проект, идею или совместную работу — напишите мне в
+[Telegram](https://t.me/HeadlessEvgen).
+
+<div align="center">
+
+<sub>Build locally. Understand deeply. Ship deliberately.</sub>
+
+</div>
